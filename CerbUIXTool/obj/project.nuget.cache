@@ -1,0 +1,105 @@
+{
+  "version": 2,
+  "dgSpecHash": "mc5DdiWvZWZeGWEEWG3nuxetma6lsxR+rlDialHLLmyA2eHKuoxUHBS/R8eSUvFlL4SW5cYxH//YEZctkoD34w==",
+  "success": true,
+  "projectFilePath": "/home/fryzekk/Development/CerbUIXTool/CerbUIXTool/CerbUIXTool.csproj",
+  "expectedPackageFiles": [
+    "/home/fryzekk/.nuget/packages/fluentftp/46.0.2/fluentftp.46.0.2.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/imgui.net/1.89.5/imgui.net.1.89.5.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/managedbass/3.1.1/managedbass.3.1.1.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/opentk/4.7.7/opentk.4.7.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/opentk.compute/4.7.7/opentk.compute.4.7.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/opentk.core/4.7.7/opentk.core.4.7.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/opentk.graphics/4.7.7/opentk.graphics.4.7.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/opentk.input/4.7.7/opentk.input.4.7.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/opentk.mathematics/4.7.7/opentk.mathematics.4.7.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/opentk.openal/4.7.7/opentk.openal.4.7.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/opentk.redist.glfw/3.3.8.30/opentk.redist.glfw.3.3.8.30.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/opentk.windowing.common/4.7.7/opentk.windowing.common.4.7.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/opentk.windowing.desktop/4.7.7/opentk.windowing.desktop.4.7.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/opentk.windowing.graphicslibraryframework/4.7.7/opentk.windowing.graphicslibraryframework.4.7.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/sixlabors.imagesharp/3.0.1/sixlabors.imagesharp.3.0.1.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/microsoft.netcore.app.ref/8.0.7/microsoft.netcore.app.ref.8.0.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/microsoft.netcore.app.runtime.win-x64/8.0.7/microsoft.netcore.app.runtime.win-x64.8.0.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/8.0.7/microsoft.netcore.app.runtime.linux-x64.8.0.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/8.0.7/microsoft.netcore.app.runtime.osx-x64.8.0.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.7/microsoft.aspnetcore.app.ref.8.0.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/8.0.7/microsoft.aspnetcore.app.runtime.win-x64.8.0.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/8.0.7/microsoft.aspnetcore.app.runtime.linux-x64.8.0.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/8.0.7/microsoft.aspnetcore.app.runtime.osx-x64.8.0.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/microsoft.netcore.app.crossgen2.linux-x64/8.0.7/microsoft.netcore.app.crossgen2.linux-x64.8.0.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/microsoft.netcore.app.host.win-x64/8.0.7/microsoft.netcore.app.host.win-x64.8.0.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.7/microsoft.netcore.app.host.linux-x64.8.0.7.nupkg.sha512",
+    "/home/fryzekk/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.7/microsoft.netcore.app.host.osx-x64.8.0.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 3.0.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5x7m-6737-26cr",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0",
+        "net8.0/linux-x64",
+        "net8.0/osx-x64",
+        "net8.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 3.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-63p8-c4ww-9cg7",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0",
+        "net8.0/linux-x64",
+        "net8.0/osx-x64",
+        "net8.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 3.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-65x7-c272-7g7r",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0",
+        "net8.0/linux-x64",
+        "net8.0/osx-x64",
+        "net8.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 3.0.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g85r-6x2q-45w7",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0",
+        "net8.0/linux-x64",
+        "net8.0/osx-x64",
+        "net8.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 3.0.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qxrv-gp6x-rc23",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0",
+        "net8.0/linux-x64",
+        "net8.0/osx-x64",
+        "net8.0/win-x64"
+      ]
+    }
+  ]
+}

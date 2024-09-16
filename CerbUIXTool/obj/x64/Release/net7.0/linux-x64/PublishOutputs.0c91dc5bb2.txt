@@ -1,0 +1,5 @@
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/linux-x64/publish/README.md
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/linux-x64/publish/libbass.so
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/linux-x64/publish/libcimgui.so
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/linux-x64/publish/libglfw.so.3.3
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/linux-x64/publish/pandora

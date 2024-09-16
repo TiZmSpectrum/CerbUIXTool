@@ -1,0 +1,4 @@
+/home/fryzekk/Development/CerbUIXTool/CerbUIXTool/bin/x64/Release/net8.0/osx-x64/publish/README.md
+/home/fryzekk/Development/CerbUIXTool/CerbUIXTool/bin/x64/Release/net8.0/osx-x64/publish/libcimgui.dylib
+/home/fryzekk/Development/CerbUIXTool/CerbUIXTool/bin/x64/Release/net8.0/osx-x64/publish/libglfw.3.dylib
+/home/fryzekk/Development/CerbUIXTool/CerbUIXTool/bin/x64/Release/net8.0/osx-x64/publish/CerbUIXTool

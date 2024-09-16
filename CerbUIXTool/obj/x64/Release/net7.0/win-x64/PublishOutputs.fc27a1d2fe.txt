@@ -1,0 +1,5 @@
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/win-x64/publish/README.md
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/win-x64/publish/bass.dll
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/win-x64/publish/cimgui.dll
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/win-x64/publish/glfw3.dll
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/win-x64/publish/pandora.exe

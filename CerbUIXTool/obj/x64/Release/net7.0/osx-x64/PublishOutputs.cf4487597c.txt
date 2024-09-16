@@ -1,0 +1,5 @@
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/osx-x64/publish/README.md
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/osx-x64/publish/libbass.dylib
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/osx-x64/publish/libcimgui.dylib
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/osx-x64/publish/libglfw.3.dylib
+/home/fryzekk/Development/Pandora/Pandora/bin/x64/Release/net7.0/osx-x64/publish/pandora
