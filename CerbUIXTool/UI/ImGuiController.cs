@@ -51,7 +51,7 @@ namespace Pandora
 
         private static unsafe void InitFonts()
         {
-            var fontData = ResourceLoader.GetEmbeddedResourceBytes("Pandora.Resources.mc360.ttf", typeof(ImGuiController).GetTypeInfo().Assembly);
+            var fontData = ResourceLoader.GetEmbeddedResourceBytes("CerbUIXTool.Resources.mc360.ttf", typeof(ImGuiController).GetTypeInfo().Assembly);
             var pinnedFontData = GCHandle.Alloc(fontData, GCHandleType.Pinned);
             IntPtr addressFontData = pinnedFontData.AddrOfPinnedObject();
 
@@ -259,8 +259,8 @@ namespace Pandora
 
             RecreateFontDeviceTexture();
 
-            string VertexSource = ResourceLoader.GetEmbeddedResourceString("Pandora.Resources.imgui-vertex.glsl");
-            string FragmentSource = ResourceLoader.GetEmbeddedResourceString("Pandora.Resources.imgui-frag.glsl");
+            string VertexSource = ResourceLoader.GetEmbeddedResourceString("CerbUIXTool.Resources.imgui-vertex.glsl");
+            string FragmentSource = ResourceLoader.GetEmbeddedResourceString("CerbUIXTool.Resources.imgui-frag.glsl");
 
             _shader = CreateProgram("ImGui", VertexSource, FragmentSource);
             _shaderProjectionMatrixLocation = GL.GetUniformLocation(_shader, "projection_matrix");

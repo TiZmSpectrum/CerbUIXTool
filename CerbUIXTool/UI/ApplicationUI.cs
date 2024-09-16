@@ -1,5 +1,5 @@
 ﻿using ImGuiNET;
-using ManagedBass;
+//using ManagedBass;
 using Pandora.Helpers;
 using Pandora.Network;
 using Pandora.UI;
@@ -64,11 +64,11 @@ namespace Pandora
         {
             var admin = Utility.IsAdmin() ? " ADMIN" : string.Empty;
 
-            m_window.Title = $"Pandora - {m_version}{admin}";
+            m_window.Title = $"CerbUIXTool Doohickey - {m_version}{admin}";
             m_window.Size = new OpenTK.Mathematics.Vector2i(1280, 720);
             m_window.VSync = OpenTK.Windowing.Common.VSyncMode.On;
 
-            var resourceBytes = ResourceLoader.GetEmbeddedResourceBytes("Pandora.Resources.icon.png");
+            var resourceBytes = ResourceLoader.GetEmbeddedResourceBytes("CerbUIXTool.Resources.icon.png");
             using var resourceImage = SixLabors.ImageSharp.Image.Load<SixLabors.ImageSharp.PixelFormats.Rgba32>(resourceBytes);
             var pixelSpan = new Span<SixLabors.ImageSharp.PixelFormats.Rgba32>(new SixLabors.ImageSharp.PixelFormats.Rgba32[resourceImage.Width * resourceImage.Height]);
             resourceImage.CopyPixelDataTo(pixelSpan);
@@ -85,20 +85,20 @@ namespace Pandora
 
             UIControls.SetTeamResurgentTheme();
 
-            Bass.Init();
+            /*Bass.Init();
             var dialupData = ResourceLoader.GetEmbeddedResourceBytes("dialup.mp3", typeof(ApplicationUI).Assembly);
             m_dialupHandle = Bass.CreateStream(dialupData, 0, dialupData.Length, BassFlags.Default);
             var disconnectData = ResourceLoader.GetEmbeddedResourceBytes("disconnect.mp3", typeof(ApplicationUI).Assembly);
             m_disconnectHandle = Bass.CreateStream(disconnectData, 0, disconnectData.Length, BassFlags.Default);
-
+*/
             m_config = Config.LoadConfig();
 
             m_window.RenderUI = RenderUI;
             m_window.Run();
 
-            Bass.StreamFree(m_dialupHandle);
+            /*Bass.StreamFree(m_dialupHandle);
             Bass.Free();
-
+*/
             m_client?.Dispose();
         }
 
@@ -606,8 +606,8 @@ namespace Pandora
 
         private void OnConnecting(object sender, string message)
         {
-            Bass.ChannelStop(m_disconnectHandle);
-            Bass.ChannelPlay(m_dialupHandle);
+            //Bass.ChannelStop(m_disconnectHandle);
+            //Bass.ChannelPlay(m_dialupHandle);
             LogMessage("Connecting...", message);
         }
 
@@ -628,8 +628,8 @@ namespace Pandora
 
         private void OnDisconnected(object sender)
         {
-            Bass.ChannelStop(m_dialupHandle);
-            Bass.ChannelPlay(m_disconnectHandle);
+            //Bass.ChannelStop(m_dialupHandle);
+            //Bass.ChannelPlay(m_disconnectHandle);
             LogMessage("Disconnected", "Bye!");
             m_client?.Dispose();
             m_client = null;
