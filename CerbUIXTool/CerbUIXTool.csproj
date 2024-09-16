@@ -20,13 +20,11 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\icon.png" />
-	  <None Remove="Resources\TeamResurgent.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<EmbeddedResource Include="Resources\mc360.ttf" />
 		<EmbeddedResource Include="Resources\icon.png" />
-		<EmbeddedResource Include="Resources\TeamResurgent.jpg" />
 		<EmbeddedResource Include="Resources\imgui-vertex.glsl" />
 		<EmbeddedResource Include="Resources\imgui-frag.glsl" />
 	</ItemGroup>

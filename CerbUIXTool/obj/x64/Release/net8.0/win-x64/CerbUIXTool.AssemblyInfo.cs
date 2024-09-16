@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CerbUIXTool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1f00ffe32da6af171e1c42b4756c61644834801")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d42f7e3749bb0cbdd070f364c86968f5c45dbc9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CerbUIXTool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CerbUIXTool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -32,7 +32,7 @@ namespace Pandora
 
         private static bool KHRDebugAvailable = false;
 
-        private int _splashTexture;
+        //private int _splashTexture;
 
         private int _windowWidth;
         private int _windowHeight;
@@ -44,14 +44,14 @@ namespace Pandora
             return _hdpiScale / _retinaScale;
         }
 
-        public int SplashTexture => _splashTexture;
+        //public int SplashTexture => _splashTexture;
 
         private IntPtr _iniNamePtr = IntPtr.Zero;
         private List<int> _ownedTextures = new List<int>();
 
         private static unsafe void InitFonts()
         {
-            var fontData = ResourceLoader.GetEmbeddedResourceBytes("Pandora.Resources.ARIALUNI.TTF", typeof(ImGuiController).GetTypeInfo().Assembly);
+            var fontData = ResourceLoader.GetEmbeddedResourceBytes("Pandora.Resources.mc360.ttf", typeof(ImGuiController).GetTypeInfo().Assembly);
             var pinnedFontData = GCHandle.Alloc(fontData, GCHandleType.Pinned);
             IntPtr addressFontData = pinnedFontData.AddrOfPinnedObject();
 
@@ -218,7 +218,7 @@ namespace Pandora
             ImGui.GetIO().BackendFlags |= ImGuiBackendFlags.RendererHasVtxOffset;
 
             CreateDeviceResources();
-            InitImages();
+            //InitImages();
             SetKeyMappings();
 
             SetPerFrameImGuiData(1 / 60f);

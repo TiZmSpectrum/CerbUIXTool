@@ -29,7 +29,7 @@ namespace Pandora
         private RemoteContextDialog m_remoteContextDialog = new();
         private FileContextDialog m_fileContextDialog = new();
         private InputDialog m_inputDialog = new();
-        private SplashDialog m_splashDialog = new();
+        //private SplashDialog m_splashDialog = new();
         private Client? m_client;
         private ClientFileInfo[]? m_cachedRemoteFileInfo;
         private Config m_config = new();
@@ -37,7 +37,7 @@ namespace Pandora
         private List<LogDetail> m_logDetails = new();
         private bool m_logDetailsChanged = false; 
         private bool m_busy = false;
-        private bool m_showSplash = true;
+        //private bool m_showSplash = true;
         private int m_dialupHandle;
         private int m_disconnectHandle;
         private string m_version;
@@ -235,13 +235,13 @@ namespace Pandora
                 }
             }
 
-            m_splashDialog.Render();
+/*            m_splashDialog.Render();
 
             if (m_showSplash)
             {
                 m_showSplash = false;
                 m_splashDialog.ShowdDialog(m_window.Controller.SplashTexture);
-            }
+            } */
 
             ImGui.Begin("Main", ImGuiWindowFlags.NoMove | ImGuiWindowFlags.NoTitleBar | ImGuiWindowFlags.NoResize);
             ImGui.SetWindowSize(GetScaledWindowSize());
